@@ -1,0 +1,26 @@
+{
+  "name": "barbara-ngrok",
+  "version": "1.0.0",
+  "description": "Create an ngrok tunnel to this computer and tweet at me when it's done",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/achingbrain/barbara-ngrok.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "author": "alex potsides",
+  "license": "ISC",
+  "dependencies": {
+    "@achingbrain/ngrok": "^0.2.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.1.1",
+    "standard": "^5.0.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
