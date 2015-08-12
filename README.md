@@ -11,3 +11,4 @@ Open a tunnel to port 22 and dm me when done.  Also dm me if the tunnel goes dow
 * `TWITTER_ACCESS_TOKEN_SECRET` Twitter credentials
 * `NGROK_PORT` Which port to forward (default 22)
 * `NGROK_PROTOCOL` Which protocol to use (default `tcp`)
+* `NGROK_AUTH_TOKEN` ngrok auth token

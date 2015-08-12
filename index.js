@@ -11,7 +11,8 @@ var client = new Twitter({
 function openTunnel () {
   ngrok.connect({
     proto: process.env.NGROK_PROTOCOL || 'tcp',
-    port: process.env.NGROK_PORT || 22
+    port: process.env.NGROK_PORT || 22,
+    authtoken: process.env.NGROK_AUTH_TOKEN
   }, function (error, url) {
     if (error) {
       throw error
