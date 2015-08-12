@@ -14,7 +14,8 @@
   "author": "alex potsides",
   "license": "ISC",
   "dependencies": {
-    "@achingbrain/ngrok": "^0.2.1"
+    "@achingbrain/ngrok": "^0.2.1",
+    "twitter": "^1.2.5"
   },
   "devDependencies": {
     "pre-commit": "^1.1.1",
